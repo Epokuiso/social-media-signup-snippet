@@ -1,6 +1,9 @@
 ## Description
 This snippet has the intend to show how to use different social media accounts in order to signup a user into a system using **NestJS**.
 
+### Google Authentication
+Check in the following where I took the Google auth snippet from - [Link](https://dev.to/imichaelowolabi/how-to-implement-login-with-google-in-nest-js-2aoa)
+
 ## Installation
 
 ```bash
