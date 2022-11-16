@@ -20,7 +20,7 @@ export class AuthGoogleService extends PassportStrategy (Strategy, 'googleServic
         refreshToken: string, 
         profile: any, 
         done: VerifyCallback
-    ): Promise<any> 
+    ): Promise <any> 
     {
         const { name, emails, photos } = profile
         
