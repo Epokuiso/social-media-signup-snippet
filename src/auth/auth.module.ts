@@ -6,7 +6,7 @@ import { AuthController } from './auth.controller';
 import { AuthService } from './auth.service';
 
 @Module({
-  imports: [UserService, MongooseModule],
+  imports: [UserService],
   controllers: [AuthController],
   providers: [AuthService, AuthGoogleService]
 })
